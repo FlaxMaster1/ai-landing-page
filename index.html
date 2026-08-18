@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Working wireframe for Wharton's philosophy on teaching, learning, and research with AI." />
+    <meta name="theme-color" content="#011f5b" />
+    <title>AI at Wharton | Working Wireframe</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (window.location.protocol === 'file:' && !window.location.pathname.endsWith('/bundle.html')) {
+        window.location.replace('./bundle.html' + (window.location.hash || '#/'))
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
