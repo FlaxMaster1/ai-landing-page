@@ -80,7 +80,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #ffd65c; outline-offs
 .section-intro h2, .featured-story h2, .research-grid h2, .closing-grid h2, .success-check h2 { margin-bottom: 0; color: var(--navy); font-size: clamp(42px, 4.5vw, 66px); font-weight: 600; }
 .section-intro > p { max-width: 560px; margin: 0; color: var(--muted); font-size: 15px; }
 .pathways-graphic { display: flex; justify-content: center; margin: 0 0 96px; }
-.pathways-graphic img { display: block; width: 125%; max-width: calc(100vw - 32px); height: auto; }
+.pathways-graphic img { display: block; flex: none; width: 125%; max-width: calc(100vw - 32px); height: auto; }
 .journey-grid { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #bfc5cc; }
 .journey-card { min-height: 430px; display: flex; flex-direction: column; padding: 30px 26px 26px; border-right: 1px solid #bfc5cc; border-top: 6px solid var(--stage); background: var(--white); }
 .journey-card:last-child { border-right: 0; }
